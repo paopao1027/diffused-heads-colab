@@ -9,6 +9,9 @@ from utils import get_id_frame, get_audio_emb, save_video
 def main(args):
     device = 'cuda' if args.gpu and torch.cuda.is_available() else 'cpu'
 
+    res = os.listdir(os.getcwd())
+    print(res)
+
     print('Loading model...')
     unet = torch.jit.load(args.checkpoint)
     diffusion = Diffusion(unet, device, **args.diffusion).to(device)
