@@ -1,5 +1,6 @@
 import hydra
 import torch
+import os
 
 from diffusion import Diffusion
 from utils import get_id_frame, get_audio_emb, save_video
