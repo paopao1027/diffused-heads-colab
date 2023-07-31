@@ -3,10 +3,10 @@
 #####################
 
 # /path/to/crema_script.pt
-checkpoint: /checkpoints/crema_script.pt
+checkpoint: checkpoints/crema_script.pt
 
 # /path/to/audio_encoder.pt
-encoder_checkpoint: /checkpoints/audio_encoder.pt
+encoder_checkpoint: checkpoints/audio_encoder.pt
 
 # /path/to/id_frame - can be .mp4 or an image
 id_frame: video.mp4
