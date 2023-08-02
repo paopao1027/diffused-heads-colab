@@ -29,3 +29,5 @@ def main(args):
 
 if __name__ == '__main__':
     main()
+
+#python sample.py hydra.job.chdir=False

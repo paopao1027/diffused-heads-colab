@@ -14,7 +14,7 @@ from torchvision.transforms import Compose, GaussianBlur, Grayscale, Resize
 import torchaudio
 
 decord.bridge.set_bridge('torch')
-torchaudio.set_audio_backend("sox_io")
+# torchaudio.set_audio_backend("sox_io")
 
 
 class AudioEncoder(nn.Module):

@@ -15,7 +15,7 @@ id_frame: video.mp4
 audio: diffused_sample.wav
 
 # /path/to/output_video.mp4
-output: output_video.mp4
+output: outputs/output_video.mp4
 
 # use GPU - highly recommended
 gpu: true
