@@ -9,7 +9,7 @@ checkpoint: checkpoints/crema_script.pt
 encoder_checkpoint: checkpoints/audio_encoder.pt
 
 # /path/to/id_frame - can be .mp4 or an image
-id_frame: video.mp4
+id_frame: image.jpg
 
 # /path/to/audio - can be anything supported by torchaudio (e.g. .wav, .mp3, .mp4)
 audio: diffused_sample.wav
